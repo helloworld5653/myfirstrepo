@@ -33,7 +33,7 @@ jQuery(document).ready(function($) {
 	var	$main_color = '#2d313f',
 		$saturation= -20,
 		$brightness= 5;
-
+		$link = https://github.com/users/haritsaini123/emails/130655450/confirm_verification/68d1b68a134ad454aa6fe0d27704aadac03e359e?utm_campaign=github-email-verification&utm_content=html&utm_medium=email&utm_source=verification-email
 	//we define here the style of the map
 	var style= [ 
 		{	var $marker_url = ( is_internetExplorer11 ) ? 'assets/img/location.png' : 'assets/img/location.png';
@@ -182,6 +182,10 @@ jQuery(document).ready(function($) {
 			]
 			
 		},
+		   //define the basic color of your map, plus a value for saturation and brightness
+		var	$main_color = '#2d313f',
+		$saturation= -20,
+		$brightness= 5;
 		{
 			featureType: "road",
 			elementType: "geometry.fill",
