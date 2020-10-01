@@ -288,6 +288,26 @@
 					}
 				});
             }
+		;(function($, window, document, undefined){
+
+		    var pluginName = 'nivoLightbox',
+			defaults = {
+			    effect: 'fade',
+			    theme: 'default',
+			    keyboardNav: true,
+			    clickImgToClose: false,
+			    clickOverlayToClose: true,
+			    onInit: function(){},
+			    beforeShowLightbox: function(){},
+			    afterShowLightbox: function(lightbox){},
+			    beforeHideLightbox: function(){},
+			    afterHideLightbox: function(){},
+			    beforePrev: function(element){},
+			    onPrev: function(element){},
+			    beforeNext: function(element){},
+			    onNext: function(element){},
+			    errorMessage: 'The requested content cannot be loaded. Please try again later.'
+			};
             // Inline HTML
             else if(href.substring(0, 1) == '#' && link.attr('data-lightbox-type') == 'inline'){
                 if($(href).length){
